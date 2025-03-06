@@ -5,6 +5,9 @@ function App() {
 	return (
 		<div>
 			<Header />
+			<Routes>
+				<Route path='/home' element={<Homepage />} />
+			</Routes>
 		</div>
 	);
 }

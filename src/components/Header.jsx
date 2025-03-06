@@ -5,10 +5,10 @@ export const Header = () => {
 	return (
 		<header>
 			<section className='web-name'>
-				<img src={mangaforgeLogo} alt='Website logo for Mangaforge' />
-				<h1>
-					<Link to={`/home`}>Mangaforge</Link>
-				</h1>
+				<Link to={`/home`}>
+					<img src={mangaforgeLogo} alt='Website logo for Mangaforge' />
+					<h1>Mangaforge</h1>
+				</Link>
 			</section>
 			<section>
 				<p className='users-name'>Guest</p>
